@@ -4,7 +4,7 @@ import { Recipe } from './types';
 import RecipeCard from './components/RecipeCard';
 import RecipeDetailModal from './components/RecipeDetailModal';
 import AIChefModal from './components/AIChefModal';
-import { ChefHat, Search, Sparkles, UtensilsCrossed, Github } from 'lucide-react';
+import { ChefHat, Search, Sparkles, UtensilsCrossed } from 'lucide-react';
 
 export default function App() {
   const [recipes, setRecipes] = useState<Recipe[]>(INITIAL_RECIPES);
